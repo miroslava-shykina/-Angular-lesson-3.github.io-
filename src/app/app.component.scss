@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+}
+
+.box {
+  margin: 0 auto;
+  width: 1400px;
+  height: 100%;
+  background-color: rgb(212, 241, 252);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.conteiner {
+  width: 1339px;
+  margin: 10px;
+  padding-left: 19px;
+}
+
+
+h1 {
+  padding-top: 10px;
+  font-weight: bolder;
+}
+
+
+hr {
+  width: 1330px;
+  margin: 0px 0px 0 6px;
+  background-color: rgb(192, 238, 254);
+}
+
+.style-input {
+  width: 1050px;
+  height: 35px;
+  margin: 20px auto;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid gray;
+
+}
+
+.style-input:focus {
+  box-shadow: 0px 0px 0px 4px rgb(0, 140, 255, 40%);
+  outline: 1px solid rgb(0, 140, 255);
+}
+
+.button-1 {
+  height: 41px;
+  width: 180px;
+  background-color: rgb(6, 146, 6);
+  border: 2px solid rgb(5, 169, 5);
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  margin: 10px 10px;
+}
+
+.button-1:focus {
+  background-color: rgb(1, 126, 1);
+  ;
+  border: none;
+  color: white;
+  border: 3px solid rgb(5, 185, 5);
+}
+
+input[placeholder] {
+  padding-left: 10px;
+  font-size: 17px;
+}
+
+.value {
+  border: 1px solid red;
+  color: #c60303;
+}
+
+.novalue {
+  border: 1px solid gray;
+}
